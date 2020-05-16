@@ -3,7 +3,7 @@
 ## **Getting Started**
 
 - Base URL: The backend app is hosted at your local  machine (http://localhost:8080/)
-- Heroku URL: This Backend app is hosted in a heroku server at ()
+- Heroku URL: This Backend app is hosted in a heroku server at (https://capstonev1-fsnd.herokuapp.com/)
 - Authetication: This version of the application requiere authenticationn or API Keys.
     -Casting Producer: all priviligies
     -Casting Director: get actors and movies, update actors and movie, create and delete only actors 
