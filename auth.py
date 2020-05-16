@@ -3,7 +3,7 @@ from flask import request, _request_ctx_stack, abort
 from functools import wraps
 from jose import jwt
 from urllib.request import urlopen
-
+import os
 
 AUTH0_DOMAIN = os.getenv('AUTH0_DOMAIN','jatobrun.auth0.com')
 ALGORITHMS = os.getenv('ALGORITHMS',['RS256'])
